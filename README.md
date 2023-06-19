@@ -11,4 +11,11 @@
       (.map()) for Ordinal encoding
       (numpy.log2()) for log transformation 
    ### Third Step: Split the data in train and val split using test train split 
-   ### Fourth Step: 
+      from sklearn.model_selection import train_test_split
+   ### Fourth Step: Model Training 
+      import various models to train your data in my case I have used gradient boost regressor and cat boost regressor
+      
+      from sklearn.ensemble import GradientBoostingRegressor
+      import catboost as cb
+      cb.CatBoostRegressor() 
+   ###
