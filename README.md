@@ -34,4 +34,7 @@
       Hyperparameter tuning can be done in two ways one of which is hard way by understanding the data and checking multiple 
       parameters values for providing good performance on the data
       The other way is using algorithms like  Random search CV and Grid search CV to auto-tune the hyperparameters
-      I implemented a grid search CV to look for best 
+      I implemented a grid search CV to look for the  best parameters suitable for data
+   ### Sixth Step: Make Predictions
+   ### Seventh Step: Evaluate your model
+      Eval metric to be used is R2 
