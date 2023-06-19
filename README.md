@@ -4,6 +4,7 @@
 
 ## Approach
    ### First Step: Perform EDA on the Training Data
+      No Null values in data ^_^
       We notice that claim_amount is RIGHT SKEWD so we can apply Log transformation to normalize it 
       Ordinal and One hot encoding can be used for some columns  
    ### Second Step: Perform the necessary data transformations
@@ -18,4 +19,5 @@
       from sklearn.ensemble import GradientBoostingRegressor
       import catboost as cb
       cb.CatBoostRegressor() 
-   ###
+   ### Fifth Step: Hyper Parameter Tuning
+      Hyper parameter tuning can be done in two ways one of which is hard way by understanding the data and checking multiple parameters values for providing a good performance on the data 
